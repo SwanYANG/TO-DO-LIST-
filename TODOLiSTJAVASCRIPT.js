@@ -135,3 +135,43 @@ function repair(id) {
   add( document.getElementById("tododay").value=a );
   document.getElementById("totaldone").removeChild(p);
 }
+function  aa() {
+  document.getElementById("name1").innerHTML=sname 
+}
+function bb() {
+          var p=Date();
+          document.getElementById("date").innerHTML=p
+}
+function add1() {
+  var  p=document.getElementById("SURPRISE").value;
+  document.getElementById("sur").innerHTML=p; 
+  document.getElementById("SURPRISE").value="";
+
+}
+function add2() {
+  var  p=document.getElementById("PITY").value;
+  document.getElementById("pit").innerHTML=p; 
+  document.getElementById("PITY").value="";
+
+}
+function add3() {
+  var  p=document.getElementById("FOCUS").value;
+  document.getElementById("foc").innerHTML=p; 
+  document.getElementById("FOCUS").value="";
+
+}
+function add4() {
+  var  p=document.getElementById("SHARE").value;
+  document.getElementById("sha").innerHTML=p; 
+  document.getElementById("SHARE").value="";
+
+}
+var i=0
+function reduceall() {
+  
+  if(document.getElementById("totaldone").hasChildNodes()==true){
+    document.getElementById("totaldone").innerHTML=""
+  }
+  else{alert("已清空")}
+  
+}
