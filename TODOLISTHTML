@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="D:\web\混色实验\浮动\TODOLIST样式.css"></style>
+  <script type="text/javascript" src="D:\web\混色实验\浮动\todolist.js"></script>
+
+</head>
+<body>
+<div class="total" style="height: auto;width: auto;">
+<div class="A">
+    <div class="B">TO&nbsp;DO&nbsp;LIST</div>
+    <div class="C">
+        <div>
+        <span onclick="aa()">editor:</span>
+            <span id="name1"></span>
+        </div>
+        <div>
+        <span onclick="bb()">publish date:</span>
+          <span  id="date"></span>  
+        </div>
+    </div>
+   <div style="clear: both;"></div>
+</div>
+<div class="flex">
+  <div class="written">
+      <div style="text-align:center;font-family:algerian;" >DAY </div>
+    <ul id="todoooo"></ul>
+      <div style="text-align:center;vertical-align:middle;"><input id="tododay" type="text"></input></div>
+      <div style="text-align: center;"><button id="buttonadd" onclick="add()">ADD</button></div>  
+  </div>
+  <div class="written ">
+    <div style="text-align:center;font-family:algerian;">SURPRISE </div>
+    <div><p style="text-align:center; vertical-align:middle;" id="sur"></p></div>
+      <div style="text-align:center;vertical-align:middle;border-left-style:none;
+      border-right-style:none;
+      border-top-style:none;"><input id="SURPRISE" type="text"></input></div>
+      <div style="text-align: center;"><button id="buttonadd" onclick="add1()">ADD</button></div>
+    </div>
+  <div class="written">
+    <div style="text-align:center;font-family:algerian;">PITY </div>
+    <div><p style="text-align:center; vertical-align:middle;" id="pit"></p></div>
+    <div style="text-align:center;vertical-align:middle;border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;"><input id="PITY" type="text"></input></div>
+    <div style="text-align: center;"><button id="buttonadd" onclick="add2()">ADD</button></div>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+<div class="REMER">
+  <div class="last">
+    <div style="text-align:center;font-family:algerian;">已经完成的事情</div>
+    <ul id="totaldone"></ul>
+    <div style="text-align: center;"><button id="buttonadd" onclick="reduceall()">清空</button></div>
+    </div>
+  <div class="last">
+    <div style="text-align:center;font-family:algerian;">FOCUS&nbsp;YOURSELF</div>
+    <div><p style="text-align:center; vertical-align:middle;" id="foc"></p></div>
+    <div style="text-align:center;vertical-align:middle;border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;"><input id="FOCUS" type="text"></input></div>
+    <div style="text-align: center;"><button id="buttonadd" onclick="add3()">ADD</button></div></div>
+  <div class="last">
+    <div style="text-align:center;font-family:algerian;">SHARE&nbsp;YOUR&nbsp;MOON</div>
+    <div><p style="text-align:center; vertical-align:middle;" id="sha"></p></div>
+    <div style="text-align:center;vertical-align:middle;border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;"><input id="SHARE" type="text"></input></div><div style="text-align: center;"><button id="buttonadd" onclick="add4()">ADD</button></div></div>
+</div>
+</div>
+
+</body>
+</html>
