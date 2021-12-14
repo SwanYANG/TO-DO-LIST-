@@ -48,7 +48,7 @@
       <span>Where are you from?</span>
       <input class="name" type="text" id="from">
       </div>
-      <div style="text-align: center;"><button  onclick="add1()">ADD</button></div> 
+      <div style="text-align: center;"><button  onclick="add1()">登入</button></div> 
 
   </div></body></html>
   
