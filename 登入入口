@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <link rel="stylesheet" type="text/css" href="D:\web\混色实验\浮动\TODOLIST样式.css"></style>
+  <script>function add1(p,w,s) {
+    var w=document.getElementById("DREAMA").value;
+    var s=document.getElementById("from").value;
+    var p=document.getElementById("NAMEA").value;
+    
+    alert(`Welcome the friend from ${s} !`)
+    window.location.href="file:///D:/web/%E6%B7%B7%E8%89%B2%E5%AE%9E%E9%AA%8C/%E6%B5%AE%E5%8A%A8/%E6%9C%AA%E5%AE%8C%E6%88%90.html";
+    }</script>
+  </head>
+  <body>
+  <div class="day">
+    <h1 style="
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+">DAYBLISSのTO&nbsp;DO&nbsp;LIST</h1>
+  </div>
+  <div class="bliss">
+    <div style="
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+">
+      <span>What's your name?</span>
+      <input class="name" type="text" id="NAMEA">
+    </div>
+    <div style="
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+">
+      <span>What's your dream?</span>
+      <input class="name" type="text"  id="DREAMA">
+    </div>
+    <div style="
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+">
+      <span>Where are you from?</span>
+      <input class="name" type="text" id="from">
+      </div>
+      <div style="text-align: center;"><button  onclick="add1()">ADD</button></div> 
+
+  </div></body></html>
+  
