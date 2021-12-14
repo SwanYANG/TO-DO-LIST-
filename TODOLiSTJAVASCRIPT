@@ -1,3 +1,5 @@
+var sname=prompt("请给自己取一个昵称吧","");
+alert("点击一下editor和publish date有惊喜哦");
 classnum=0
 //添加代办事项
 function add(s) {
