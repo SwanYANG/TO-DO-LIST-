@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="D:\web\混色实验\浮动\TODOLIST样式.css"></style>
-  <script type="text/javascript" src="D:\web\混色实验\浮动\todolist.js"></script>
+<link rel="stylesheet" type="text/css" href="./TODOLiST样式"></style>
+  <script type="text/javascript" src="./TODOLiSTJAVASCRIPT.js"></script>
 
 </head>
 <body>
